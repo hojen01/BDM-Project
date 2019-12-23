@@ -1,0 +1,42 @@
+<p>
+Marriage certificate application
+</p>
+<p>
+
+<form action="/marriage" method="post">
+
+    Wedding Date: <input name = "wdate" type = "date" required />
+    <br>
+    Wedding Location: <input name = "wlocation" type = "text" required />
+    <br>
+    <br>
+    Wedding Participants:
+    <br>
+    Participant 1:
+    <br>
+    First Name: <input name = "w1fname" type = "text" required />
+    Last Name: <input name = "w1lname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "w1gender" value = "male" checked>Male<br>
+    <input type = "radio" name = "w1gender" value = "female" checked>Female<br>
+    <input type = "radio" name = "w1gender" value = "other" checked>Other<br><br>
+
+    Participant 2:
+    <br>
+    First Name: <input name = "w2fname" type = "text" required />
+    Last Name: <input name = "w2lname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "w2gender" value = "male" checked>Male<br>
+    <input type = "radio" name = "w2gender" value = "female" checked>Female<br>
+    <input type = "radio" name = "w2gender" value = "other" checked>Other<br><br>
+
+    Name of Marriage Officiator:<br>
+    First Name: <input name = "mofname" type = "text" required />
+    Last Name: <input name = "molname" type = "text" required /><br><br>
+
+    <input value="Submit" type="submit" />
+    <input type = "reset">
+</form>
+<p>

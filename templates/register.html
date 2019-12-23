@@ -1,0 +1,56 @@
+<p>
+{message}
+</p>
+<p>
+
+<div id="box">
+<form action="/register" method="post">
+
+    <label>First Name:</label><input name = "firstname" type = "text" class = "txt" required />
+    <br>
+    <label>Last Name:</label><input name = "lastname" type = "text" class = "txt" required />
+    <br>
+    <br>
+    <label>Gender:</label>
+    <input type = "radio" name = "gender" value = "male" class = "rd" checked>Male
+    <input type = "radio" name = "gender" value = "female" class = "rd" checked>Female
+    <input type = "radio" name = "gender" value = "other" class = "rd" checked>Other
+    <br>
+    <br>
+    <label>House Number:</label><input name = "housenumber" type = "text" class = "txt"/>
+    <br>
+    <label>Street Address:</label><input name = "street" type = "text" class = "txt"/>
+    <br>
+    <label>Suburb:</label><input name = "suburb" type = "text" class = "txt"/>
+    <br>
+    <label>State:</label><select name = "state" class = "txt">
+      <option value = "nsw">New South Wales</option>
+      <option value = "nt">Northern Territory</option>
+      <option value = "qld">Queensland</option>
+      <option value = "sa">South Australia</option>
+      <option value = "tas">Tasmania</option>
+      <option value = "vic">Victoria</option>
+      <option value = "wa">Western Australia</option>
+        </select>
+    <br>
+    <label>Email:</label><input name="email" type = "email" required class = "txt"/><br>
+    <label>Phone:</label><input name = "phone"  type = "text" required class = "txt"/><br>
+
+    <label>Account Type:</label><select name = "accounttype" class = "txt" required>
+      <option value = "marriageoff">Marriage Officiator</option>
+      <option value = "medprac">Medical Practitioner</option>
+      <option value = "fundir">Funeral Director</option>
+      <option value = "staff">Staff</option>
+      <option value = "admin">Administrator</option>
+    </select>
+  <br>
+    <label>Create a username:</label><input name="username" type="text" required class = "txt"/>
+<br>
+
+    <label>Create a password:</label><input name="password" type="password" required class = "txt"/>
+<br>
+    <input value="Create" class = "button" type="submit" />
+    <input type = "reset" class = "button">
+</form>
+</div>
+<p>

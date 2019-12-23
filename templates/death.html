@@ -1,0 +1,37 @@
+<p>
+Death Certificate Application
+</p>
+<p>
+
+<form action="/death" method="post">
+
+    Date of Death: <input name = "ddate" type = "date" required />
+    <br>
+    Location of Death: <input name = "dlocation" type = "text" required />
+    <br>
+    <br>
+    First Name: <input name = "diedfname" type = "text" required />
+    Last Name: <input name = "diedlname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "diedgender" value = "male" checked>Male<br>
+    <input type = "radio" name = "diedgender" value = "female" checked>Female<br>
+    <input type = "radio" name = "diedgender" value = "other" checked>Other<br><br>
+
+    Cause of Death: <br>
+    <textarea name = "deathcause" rows = "5" cols = "50">
+    </textarea>
+    <br>
+    <br>
+    Was autopsy performed? <br>
+    <input type = "radio" name = "autopsy" value = "yesautopsy" checked>Yes<br>
+    <input type = "radio" name = "autopsy" value = "noautopsy" checked>No<br><br>
+
+    Name of Medical Practitioner:<br>
+    First Name: <input name = "deathmpfname" type = "text" required />
+    Last Name: <input name = "deathmplname" type = "text" required /><br><br>
+
+    <input value="Submit" type="submit" />
+    <input type = "reset">
+</form>
+<p>

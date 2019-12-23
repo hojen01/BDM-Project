@@ -1,0 +1,68 @@
+<p>
+Update of Family and Next of Kin Details
+</p>
+<p>
+
+<form action="/funeral" method="post">
+
+    Name of Individual:
+    <br>
+    First Name: <input name = "updatefname" type = "text" required />
+    Last Name: <input name = "updatelname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "updategender" value = "male" checked>Male<br>
+    <input type = "radio" name = "updategender" value = "female" checked>Female<br>
+    <input type = "radio" name = "updategender" value = "other" checked>Other<br><br>
+
+    Next of Kin 1:
+    <br>
+    First Name: <input name = "nok1fname" type = "text" required />
+    Last Name: <input name = "nok1lname" type = "text" required />
+    Relationship: <select name = "nok1rel">
+        <option value = "spouse1">Spouse</option>
+        <option value = "child1">Child</option>
+        <option value = "parent1">Parent</option>
+        <option value = "sibling1">Sibling</option>
+        <option value = "grandchild1">Grandchild</option>
+        <option value = "grandparent1">Grandparent</option>
+        <option value = "niece1">Niece</option>
+        <option value = "nephew1">Nephew</option>
+        <option value = "cousin1">Cousin</option>
+        <option value = "othernok1">Other</option>
+          </select>
+    <br>
+    <br>
+    Next of Kin 2:
+    <br>
+    First Name: <input name = "nok2fname" type = "text" required />
+    Last Name: <input name = "nok2lname" type = "text" required />
+    Relationship: <select name = "nok2rel">
+        <option value = "spouse2">Spouse</option>
+        <option value = "child2">Child</option>
+        <option value = "parent2">Parent</option>
+        <option value = "sibling2">Sibling</option>
+        <option value = "grandchild2">Grandchild</option>
+        <option value = "grandparent2">Grandparent</option>
+        <option value = "niece2">Niece</option>
+        <option value = "nephew2">Nephew</option>
+        <option value = "cousin2">Cousin</option>
+        <option value = "othernok2">Other</option>
+          </select>
+    <br>
+    <br>
+
+    Other Family Members: <br>
+    <textarea name = "updatefamily" rows = "5" cols = "50">
+    </textarea>
+    <br>
+    <br>
+
+    Name of Funeral Director:<br>
+    First Name: <input name = "fdfname" type = "text" required />
+    Last Name: <input name = "fdlname" type = "text" required /><br><br>
+
+    <input value="Submit" type="submit" />
+    <input type = "reset">
+</form>
+<p>

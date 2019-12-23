@@ -1,0 +1,48 @@
+<p>
+Birth Certificate Application
+</p>
+<p>
+
+<form action="/birth" method="post">
+
+    Birth Date: <input name = "bdate" type = "date" required />
+    <br>
+    Birth Location: <input name = "blocation" type = "text" required />
+    <br>
+    <br>
+    Infant:
+    <br>
+    First Name: <input name = "b1fname" type = "text" required />
+    Last Name: <input name = "b1lname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "b1gender" value = "male" checked>Male<br>
+    <input type = "radio" name = "b1gender" value = "female" checked>Female<br>
+    <input type = "radio" name = "b1gender" value = "other" checked>Other<br><br>
+
+    Father:
+    <br>
+    First Name: <input name = "bffname" type = "text" required />
+    Last Name: <input name = "bflname" type = "text" required />
+    <br>
+    <br>
+    Mother:
+    <br>
+    First Name: <input name = "bffname" type = "text" required />
+    Last Name: <input name = "bflname" type = "text" required />
+    <br>
+    <br>
+
+    Other Relatives: <br>
+    <textarea name = "brelatives" rows = "5" cols = "50">
+    </textarea>
+    <br>
+    <br>
+    Name of Medical Practitioner:<br>
+    First Name: <input name = "birthmpfname" type = "text" required />
+    Last Name: <input name = "birthmplname" type = "text" required /><br><br>
+
+    <input value="Submit" type="submit" />
+    <input type = "reset">
+</form>
+<p>

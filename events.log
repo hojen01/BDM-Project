@@ -1,0 +1,2 @@
+INFO: 2017-09-30 07:46:05,295 - do_register: User created account @ user_id: 2
+INFO: 2017-09-30 07:46:16,572 - do_login: user authenticated @ hello

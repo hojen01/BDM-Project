@@ -1,0 +1,42 @@
+<p>
+Divorce application
+</p>
+<p>
+
+<form action="/divorce" method="post">
+
+    Divorce Date: <input name = "ddate" type = "date" required />
+    <br>
+    Divorce Location: <input name = "dlocation" type = "text" required />
+    <br>
+    <br>
+    Divorce Participants:
+    <br>
+    Participant 1:
+    <br>
+    First Name: <input name = "d1fname" type = "text" required />
+    Last Name: <input name = "d1lname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "d1gender" value = "male" checked>Male<br>
+    <input type = "radio" name = "d1gender" value = "female" checked>Female<br>
+    <input type = "radio" name = "d1gender" value = "other" checked>Other<br><br>
+
+    Participant 2:
+    <br>
+    First Name: <input name = "d2fname" type = "text" required />
+    Last Name: <input name = "d2lname" type = "text" required />
+    <br>
+    Gender:<br>
+    <input type = "radio" name = "d2gender" value = "male" checked>Male<br>
+    <input type = "radio" name = "d2gender" value = "female" checked>Female<br>
+    <input type = "radio" name = "d2gender" value = "other" checked>Other<br><br>
+
+    Name of Divorce Officiator:<br>
+    First Name: <input name = "dofname" type = "text" required />
+    Last Name: <input name = "dolname" type = "text" required /><br><br>
+
+    <input value="Submit" type="submit" />
+    <input type = "reset">
+</form>
+<p>
