@@ -1,0 +1,25 @@
+<form action="/process" method="post">
+    App id: <input type="text" name="app_id" required>
+    Action:<select name="app_state" class="txt" required>
+        <option value="accepted">Accept</option>
+        <option value="rejected">Reject</option>
+        <option value="investigating">Investigate</option>
+    </select>
+    <input type="submit" name="action" value="View Application">
+    <input type="submit" name="action" value="Submit">
+</form>
+<div class="outer">
+    <div class="inner">
+        <table>
+            <tr>
+                <th>App Id</th>
+                <th>User Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Type</th>
+            </tr>
+            {contents}
+        </table>
+    </div>
+</div>
+<p>

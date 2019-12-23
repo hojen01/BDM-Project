@@ -1,0 +1,120 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34888C;
+    font: 15px 'Helvetica';
+}
+h2 {
+  font: 20px 'Helvetica';
+  font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #7CAA2D;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 45%;
+    max-width: 45%;
+}
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+p {
+  font: 15px 'Helvetica';
+}
+.txt {
+  width: 200px;
+  padding: 5px 5px;
+  margin-bottom: 8px;
+  font: 15px 'Helvetica';
+}
+.rd {
+  padding-left: 10px;
+}
+#box2{
+  margin-top: 10px; 
+  width: 600px;
+  text-align: left;
+}
+
+#box{ margin-top: 10px; margin-left:10px}
+input{
+  margin-bottom: 20px; padding-right: 80px;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    font: 15px 'Helvetica';
+  }
+
+
+.button {
+  color: white;
+  background: #34888C;
+  text-align: center;
+  line-height: 65px;
+  font: 15px 'Helvetica';
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+
+}
+.button: hover {
+  background-color: #7CAA2D;
+}
+
+table {
+  width: 100%;
+  *margin-left: -100px;
+}
+td, th {
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  white-space: nowrap;
+  text-align: center;
+}
+.fix {
+  position: absolute;
+  *position: relative;
+  margin-left: -100px;
+  width: 100px;
+}
+.outer {
+  position: relative;
+}
+.inner {
+  overflow-y: scroll;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 400px;
+}

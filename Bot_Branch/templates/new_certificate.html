@@ -1,0 +1,25 @@
+<p>
+    {message}
+</p>
+<p>
+
+<div id="box">
+    <form action="/upload_certificate" method="post" enctype="multipart/form-data">
+
+        First Name:<input name="firstname" type="text" class="txt" required/>
+        <br>
+        Last Name:<input name="lastname" type="text" class="txt" required/>
+        <br>
+        Application Type:<select name="app_type" class="txt" required>
+        <option value="marriage">Marriage Certificate</option>
+        <option value="divorce">Divorce Certificate</option>
+        <option value="birth">Birth Certificate</option>
+        <option value="death">Death Certificate</option>
+        <option value="funeral">Funeral Application</option>
+    </select>
+        <br>
+        Filled in pdf form required: <input type="file" name="upload" />
+        <input type="submit" value="Submit Request" />
+    </form>
+</div>
+<p>

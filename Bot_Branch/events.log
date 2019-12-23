@@ -1,0 +1,44 @@
+INFO: 2017-09-13 11:26:24,461 - do_login: user authenticated @ admin
+INFO: 2017-09-13 11:26:37,478 - do_login: user authenticated @ admin
+INFO: 2017-09-13 12:22:00,902 - do_login: user authenticated @ admin
+INFO: 2017-09-13 13:53:36,451 - do_login: user authenticated @ admin
+INFO: 2017-09-13 22:08:27,258 - do_login: user authenticated @ admin
+WARNING: 2017-09-13 22:08:45,533 - do_login: failed login attempt @ hello
+INFO: 2017-09-13 22:10:09,646 - do_register: User created account @ user_id: 2
+INFO: 2017-09-13 22:10:19,147 - do_login: user authenticated @ hello
+INFO: 2017-09-13 22:25:02,723 - do_login: user authenticated @ admin
+INFO: 2017-09-13 22:25:42,826 - do_login: user authenticated @ hello
+INFO: 2017-09-13 22:26:44,983 - do_login: user authenticated @ admin
+INFO: 2017-09-13 22:30:48,833 - do_login: user authenticated @ hello
+INFO: 2017-09-13 22:40:56,062 - do_login: user authenticated @ admin
+INFO: 2017-09-13 22:41:30,855 - do_register: User created account @ user_id: 3
+INFO: 2017-09-13 22:41:39,292 - do_login: user authenticated @ abcd
+INFO: 2017-09-13 22:42:07,759 - do_login: user authenticated @ abcd
+INFO: 2017-09-13 23:49:51,769 - do_login: user authenticated @ hello
+WARNING: 2017-09-14 09:00:31,960 - do_login: failed login attempt @ hello
+INFO: 2017-09-14 09:04:04,194 - do_register: User created account @ user_id: 2
+WARNING: 2017-09-14 09:04:11,536 - do_login: failed login attempt @ hello
+INFO: 2017-09-14 09:04:19,871 - do_login: user authenticated @ admin
+INFO: 2017-09-14 16:12:50,333 - do_register: User created account @ user_id: 2
+WARNING: 2017-09-14 16:13:06,010 - do_login: failed login attempt @ benbucket
+WARNING: 2017-09-14 16:20:58,404 - do_login: failed login attempt @ benbucket
+WARNING: 2017-09-14 16:21:10,826 - do_login: failed login attempt @ benbucket
+INFO: 2017-09-14 16:23:20,069 - do_register: User created account @ user_id: 2
+WARNING: 2017-09-14 16:23:27,412 - do_login: failed login attempt @ benbucket
+WARNING: 2017-09-14 16:23:35,816 - do_login: failed login attempt @ benbucket
+INFO: 2017-09-14 16:24:43,215 - do_register: User created account @ user_id: 3
+WARNING: 2017-09-14 16:25:06,074 - do_login: failed login attempt @ alpha
+WARNING: 2017-09-14 16:25:22,893 - do_login: failed login attempt @ alpha
+WARNING: 2017-09-14 16:34:30,607 - do_login: failed login attempt @ alpha
+INFO: 2017-09-14 23:36:28,461 - do_register: User created account @ user_id: 2
+INFO: 2017-09-14 23:41:36,596 - do_register: User created account @ user_id: 3
+INFO: 2017-09-14 23:43:13,293 - do_register: User created account @ user_id: 4
+INFO: 2017-09-14 23:43:25,466 - do_login: user authenticated @ hello2
+INFO: 2017-09-15 00:02:52,603 - do_login: user authenticated @ session_hijacked
+INFO: 2017-09-15 00:04:02,381 - do_login: user authenticated @ session_hijacked
+INFO: 2017-09-15 00:05:23,809 - do_login: user authenticated @ session_hijacked
+WARNING: 2017-09-15 00:44:45,266 - do_login: failed login attempt @ session_hijacked
+WARNING: 2017-09-15 00:44:50,571 - do_login: failed login attempt @ session_hijacked
+WARNING: 2017-09-15 00:44:56,544 - do_login: failed login attempt @ session_hijacked
+INFO: 2017-09-15 00:45:26,261 - do_login: user authenticated @ session_hijacked
+INFO: 2017-09-15 00:56:39,806 - do_login: user authenticated @ session_hijacked
